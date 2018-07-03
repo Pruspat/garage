@@ -1,12 +1,12 @@
 body{
     width: 80%;
     margin:auto;
+
 }
 
 .top{
     background: url("../images/oldcar.jpg") no-repeat;
     background-size: cover;
-    height: 672px;
 }
 
 h1{
@@ -29,8 +29,12 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 
-ul{
+.mnav{
     text-align: center;
+    @font-face {
+    font-family: 'menuFont';
+    url();
+}
 }
 
 li{
@@ -102,6 +106,10 @@ h1{
 .feature-border{
     border: 1px solid rgba(197,158,71,1);
     padding:30px;
+}
+
+.navone {
+    border: 1px solid rgba(197, 158, 71, 1);
 }
 
 button{
