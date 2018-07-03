@@ -4,19 +4,29 @@ body{
 }
 
 .top{
-    background-color: red;
+    background: url("../images/oldcar.jpg") no-repeat;
+    background-size: cover;
+    height: 672px;
+}
+
+h1{
+
 }
 
 .feature{
-    background-color: yellow;
+
 }
 
 .latest{
-    background-color: blue;
+
 }
 
 .collections{
-    background-color: aqua;
+
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul{
@@ -46,7 +56,7 @@ h1{
 }
 
 .top-info{
-    background-color: antiquewhite;
+
 }
 
 .bottom-top{
@@ -61,3 +71,44 @@ h1{
     border: 1px solid white;
     color: white;
 }
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: black;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: white;
+    cursor: pointer;
+    border-radius:90px;
+}
+
+.top-bottom{
+    border-top:1px solid rgba(186,186,186,1);
+    border-bottom:1px solid rgba(186,186,186,1);
+    background-size: cover;
+    padding:30px;
+}
+
+.feature-border{
+    border: 1px solid rgba(197,158,71,1);
+    padding:30px;
+}
+
+button{
+    background-color: rgb(2, 2, 67);
+    color: white;
+    width: 8em;
+    height: 3em;
+    font-size: 28px;
+}
+
