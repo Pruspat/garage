@@ -1,4 +1,41 @@
 body{
     width: 80%;
+    margin:auto;
+}
 
+.top{
+    background-color: red;
+}
+
+.latest{
+    background-color: blue;
+}
+ul{
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+}
+
+.border{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-info{
+    background-color: antiquewhite;
 }
