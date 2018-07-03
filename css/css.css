@@ -30,12 +30,10 @@ p{
 }
 
 .mnav{
-    text-align: center;
-    @font-face {
-    font-family: 'menuFont';
-    url();
+
+/*dodac czcionke*/
 }
-}
+
 
 li{
     list-style-type: none;
