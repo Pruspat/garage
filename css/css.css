@@ -7,9 +7,18 @@ body{
     background-color: red;
 }
 
+.feature{
+    background-color: yellow;
+}
+
 .latest{
     background-color: blue;
 }
+
+.collections{
+    background-color: aqua;
+}
+
 ul{
     text-align: center;
 }
