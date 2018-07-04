@@ -156,11 +156,28 @@ a{
     transform: translate(10%, 80%);
 }
 
+.collections{
+    text-align: center;
+}
+
 .collections-top{
     display: flex;
     justify-content: center;
+    margin: 50px;
+}
+
+.strip{
+    border: 2px solid black;
+    width: 50px;
+    display: flex;
+    transform: translateX(1350%);
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .footer{
-
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    background: black;
 }
