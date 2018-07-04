@@ -1,5 +1,5 @@
 body{
-    width: 80%;
+    width: 70%;
     margin:auto;
     min-width: 60%;
 }
@@ -95,6 +95,7 @@ h1{
     border-top: 1px solid #bababa;
     border-bottom: 1px solid #bababa;
     padding:30px;
+    height:260px;
 }
 
 .navone {
@@ -104,13 +105,16 @@ h1{
 
 .feature-bottom-border {
     border: 1px solid rgba(197, 158, 71, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 button{
     background-color: rgb(2, 2, 67);
     color: white;
     width: 8em;
     height: 3em;
-    font-size: 28px;
+    font-size: 18px;
 }
 
 .feature-bottom{
@@ -119,7 +123,7 @@ button{
 }
 
 .feature-bottom-down{
-    width: 19.5vw;
+    width: 19.55vw;
 }
 
 .newsletter-centered{
@@ -213,4 +217,21 @@ h5{
     display: inline-block;
     padding-right: 246px;
     border-bottom: 2px solid white;
+}
+
+h2{
+    font-size: 16px;
+}
+.img{
+    background: url("../images/featurporch.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.img-two{
+    background: url("../images/featurporch1.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.pfeature{
+    font-size: 12px;
 }
