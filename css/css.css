@@ -124,7 +124,7 @@ button{
 
 .newsletter-centered{
     position: absolute;
-    transform: translate(400%, -900%);
+    transform: translate(50%, -250%);
     color: white;
 }
 
@@ -180,4 +180,37 @@ a{
     justify-content: space-around;
     color: white;
     background: black;
+    height: 30px;
+    font-size: 12px;
+}
+
+.sort{
+    margin: 80px auto;
+    text-align: center;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+span{
+    color: #c2993f;
+}
+
+.subs{
+    border: 1px solid white;
+    padding: 10px 40px;
+    font-size: 32px;
+    letter-spacing: 8px;
+}
+
+h5{
+    font-size: 26px;
+    display: inline-block;
+    padding-right: 246px;
+    border-bottom: 2px solid white;
 }
