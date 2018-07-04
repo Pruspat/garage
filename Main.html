@@ -9,57 +9,58 @@
 
 </head>
 <body>
-<ul class="top-info mnav">
-    <li>
-        <div class="social" >
-            <img class="facebook" src="images/facebook.svg"width="32px" height="32px" >
-            <img class="twitter" src="images/twitter.svg"width="32px" height="32px" >
-            <img class="google" src="images/google.svg"width="32px" height="32px" >
-            <img class="pintrest" src="images/pinterest.svg"width="32px" height="32px" >
+
+<div class="head">
+    <div class="social">
+        <img class="facebook" src="images/facebook.svg"width="32px" height="32px" >
+        <img class="twitter" src="images/twitter.svg"width="32px" height="32px" >
+        <img class="google" src="images/google.svg"width="32px" height="32px" >
+        <img class="pintrest" src="images/pinterest.svg"width="32px" height="32px" >
+    </div>
+    <div>
+        <p>GIVE US A CALL +666666666</p>
+    </div>
+    <div style="display: flex;">
+        <div>
+            <p>Login</p>
         </div>
-    </li>
-    <li>GIVE US A CALL +666666666</li>
-    <li>
-    <li>Login</li>
-    <li>Register</li>
-    </li>
-</ul>
+        <div>
+            <p>|</p>
+        </div>
+        <div>
+            <p>Register</p>
+        </div>
+    </div>
+</div>
 
 <nav>
-    <ul class="mnav">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">CATEGORIES</a></li>
-        <li><a href="#">DEALERS<img src="images/angle-down-solid.svg" alt="down" width="8px" height="8px"></a></li>
-        <li><a href="#">CONTACT<img src="images/angle-down-solid.svg" alt="down" width="8px" height="8px"></a></li>
-        <li><a href="#" class="navone">POST NEW CAR</a></li>
-    </ul>
+    <div><a href="#">HOME</a></div>
+    <div><a href="#">CATEGORIES</a></div>
+    <div><a href="#">DEALERS<img src="images/angle-down-solid.svg" alt="down" width="8px" height="8px"></a></div>
+    <div><a href="#">CONTACT<img src="images/angle-down-solid.svg" alt="down" width="8px" height="8px"></a></div>
+    <div><a href="#" class="navone">POST NEW CAR</a></div>
 </nav>
 
 <div class="top">
-    <img src="images/logo1.png">
+    <img src="images/logo1.png" class="logo">
 
-   <h2>Porsche  356</h2>
-    <p>"Lorem ipsum dolor sit amet, consectetur ,</p>
-    <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore"</p>
+   <h2 class="top-text">Porsche  356</h2>
+    <p class="top-text">"Lorem ipsum dolor sit amet, consectetur ,</p>
+    <p class="top-text">adipiscing elit, sed do eiusmod tempor incididunt ut labore"</p>
     <div class="bottom-top">
-        <h2>SEARCH TEXT</h2>
+        <h4>SEARCH TEXT</h4>
         <div class="search">
-            <ul>
-                <li class="search-menu">Enter Keyword</li>
-                <li class="search-menu">Category <img src="images/angle-down-solid.svg" alt="down" width="16px" height="16px"></li>
-                <li class="search-menu">Min Year <img src="images/angle-down-solid.svg" alt="down" width="16px" height="16px"></li>
-                <li class="search-menu">Max Year <img src="images/angle-down-solid.svg" alt="down" width="16px" height="16px"></li>
-                <li>
-                    <p>Price $5000000 - $1000000</p>
-                    <div class="slidecontainer">
-                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                    </div>
-                </li>
-                <li>
-                    <img src="images/search.svg" width="32px" height="32px">
-                </li>
-            </ul>
-
+            <div class="search-menu">Enter Keyword</div>
+            <div class="search-menu">Category <img src="images/angle-down-solid.svg" alt="down" width="16px" height="16px"></div>
+            <div class="search-menu">Min Year <img src="images/angle-down-solid.svg" alt="down" width="16px" height="16px"></div>
+            <div class="search-menu">Max Year <img src="images/angle-down-solid.svg" alt="down" width="16px" height="16px"></div>
+            <div style="height: 40px;">
+                <p style="font-size:10px; margin: 0px;">Price $5000000 - $1000000</p>
+                <div>
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
+            </div>
+            <div style="display: flex; align-items: center;"><img src="images/search.svg" width="16px" height="16px"></div>
         </div>
     </div>
 </div>
@@ -67,32 +68,29 @@
 <div class="feature">
     <h1> FEATURE CARS </h1>
 
-    <ul>
-        <li>
-            <img src="images/featurporch.jpg" alt="silver-porch">
-            <li class="top-bottom">
-                <div class="feature-border">
-                    <h2>LOREM IPSUM</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectetur ,</p>
-                    <p>adipiscing elit, sed do eiusmod tempor incididunt"</p>
-                    <p>Price €</p>
-                    <button>READ MORE</button>
-                </div>
-            </li>
-        </li>
-        <li>
-            <img src="images/featurporch1.jpg" alt="black-porch">
-            <li class="top-bottom">
-                <div class="feature-border">
-                    <h2>LOREM IPSUM</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectetur ,</p>
-                    <p>adipiscing elit, sed do eiusmod tempor incididunt"</p>
-                    <p>Price €</p>
-                    <button>READ MORE</button>
-                </div>
-            </li>
-        </li>
-    </ul>
+    <div class="feature-bottom">
+        <div><img src="images/featurporch.jpg" alt="silver-porch" class="feature-bottom-down"></div>
+        <div class="feature-border feature-bottom-down">
+            <div class="feature-bottom-border">
+                <h2>LOREM IPSUM</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur ,</p>
+                <p>adipiscing elit, sed do eiusmod tempor incididunt"</p>
+                <p>Price €</p>
+                <button>READ MORE</button>
+            </div>
+        </div>
+        <div><img src="images/featurporch1.jpg" alt="black-porch" class="feature-bottom-down"></div>
+        <div class="feature-border feature-bottom-down">
+            <div class="feature-bottom-border">
+                <h2>LOREM IPSUM</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur ,</p>
+                <p>adipiscing elit, sed do eiusmod tempor incididunt"</p>
+                <p>Price €</p>
+                <button>READ MORE</button>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <div class="latest">
@@ -108,62 +106,66 @@
     </ul>
 
     <picture>
-        <img src="images/car1.jpg" alt="1">
-        <img src="images/car2.jpg" alt="2">
-        <img src="images/car3.jpg" alt="3">
-        <img src="images/car4.jpg" alt="4">
-        <img src="images/car5.jpg" alt="5">
-        <img src="images/car6.jpg" alt="6">
-        <img src="images/car7.jpg" alt="7">
-        <img src="images/car8.jpg" alt="8">
+        <img src="images/car1.jpg" alt="1" class="feature-bottom-down">
+        <img src="images/car2.jpg" alt="2" class="feature-bottom-down">
+        <img src="images/car3.jpg" alt="3" class="feature-bottom-down">
+        <img src="images/car4.jpg" alt="4" class="feature-bottom-down">
+        <img src="images/car5.jpg" alt="5" class="feature-bottom-down">
+        <img src="images/car6.jpg" alt="6" class="feature-bottom-down">
+        <img src="images/car7.jpg" alt="7" class="feature-bottom-down">
+        <img src="images/car8.jpg" alt="8" class="feature-bottom-down">
     </picture>
 
-    <ul>
-        <li>
-            <div class="border">
-                <img src="images/border.png" alt="border">
-                <div class="centered">
-                    <h2> NEWSLETTER</h2>
-                    <p>Subscribe to the COLLECTIONCARS mailing list to</p>
-                    <p>receive updates on new arrivals, specials</p>
-                    <p>offers and other discount informations.</p>
-
-                </div>
-
-            </div>>
-        </li>
-        <li>
-            <u>Email</u>
-            <td>SUBSCRIBE</td>
-            <img src="images/newsletter.jpg" alt="newsletter">
-        </li>
-    </ul>
+    <div style="display: flex; justify-content: space-around;align-items: center;">
+        <div class="border" style="width: 49%;">
+            <img src="images/border.png" alt="border" style="width: 110%;">
+            <div class="centered">
+                <h2> NEWSLETTER</h2>
+                <p>Subscribe to the COLLECTIONCARS mailing list to</p>
+                <p>receive updates on new arrivals, specials</p>
+                <p>offers and other discount informations.</p>
+            </div>
+        </div>
+        <div style="width: 49%;">
+            <img src="images/newsletter.jpg" alt="newsletter" style="z-index: -1; width: 100%;">
+            <div class="newsletter-centered">
+                <u>Email</u><br />
+                <td>SUBSCRIBE</td>
+            </div>
+        </div>
+    </div>
 </div>
 
 
 <div class="collections">
-    <h3><img src="images/logo1.png" alt="logo"></h3>
-    <ul>
-       <li>ABOUT US</li>
-       <li>CATEGORIES</li>
-       <li>PREORDERS</li>
-       <li>CONTACT US</li>
-       <li>RECEIVE OUR NEWSLETTER</li>
-    </ul>
-
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"</p>
-
-    <div class="social" >
-        <img class="facebook" src="images/facebook.svg"width="32px" height="32px" >
-        <img class="twitter" src="images/twitter.svg"width="32px" height="32px" >
-        <img class="google" src="images/google.svg"width="32px" height="32px" >
-        <img class="pintrest" src="images/pinterest.svg"width="32px" height="32px" >
+    <img src="images/logo1.png" alt="logo">
+    <div class="collections-top">
+        <div><a href="#">ABOUT US</a></div>
+        <div><a href="#">CATEGORIES</a></div>
+        <div><a href="#">PREORDERS</a></div>
+        <div><a href="#">CONTACT US</a></div>
+        <div><a href="#">RECEIVE OUR NEWSLETTER</a></div>
     </div>
+    <div style="text-align: center;">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+        <p>sed do eiusmod tempor incididunt"</p></div>
+    <div>
+        <div>
+            <img class="facebook" src="images/facebook.svg"width="32px" height="32px" >
+            <img class="twitter" src="images/twitter.svg"width="32px" height="32px" >
+            <img class="google" src="images/google.svg"width="32px" height="32px" >
+            <img class="pintrest" src="images/pinterest.svg"width="32px" height="32px" >
+        </div>
+    </div>
+</div>
 
-    <ul class="top-info mnav">
-        <li>© Copy right 2016 | Privacy | Policy</li>
-        <li>Designed by Web Domus Italia - Web Agency</li>
-    </ul>
+<div class="footer">
+    <div>
+        <p>© Copy right 2016 | Privacy | Policy</p>
+    </div>
+    <div>
+        <p>Designed by Web Domus Italia - Web Agency</p>
+    </div>
 </div>
 
 </body>

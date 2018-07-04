@@ -1,7 +1,7 @@
 body{
     width: 80%;
     margin:auto;
-
+    min-width: 60%;
 }
 
 .top{
@@ -9,29 +9,12 @@ body{
     background-size: cover;
 }
 
-h1{
-
-}
-
-.feature{
-
-}
-
-.latest{
-
-}
-
-.collections{
-
+h4{
+    color:white;
 }
 
 p{
     font-family: 'Open Sans', sans-serif;
-}
-
-.mnav{
-
-/*dodac czcionke*/
 }
 
 
@@ -46,7 +29,6 @@ h1{
 
 .border{
     position: relative;
-    text-align: center;
     color: black;
 }
 
@@ -66,29 +48,37 @@ h1{
 }
 
 .search{
-  display:inline-block;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    padding: 0 0 20px 0;
 }
-
 .search-menu{
+    display: flex;
+    align-items: center;
     border: 1px solid white;
     color: white;
+    height: 40px;
+    width: 170px;
+    justify-content: center;
 }
 
 .slider {
     -webkit-appearance: none;
     width: 100%;
-    height: 25px;
+    height: 4px;
     background: black;
     outline: none;
     -webkit-transition: .2s;
     transition: opacity .2s;
 }
 
+
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 25px;
-    height: 25px;
+    width: 10px;
+    height: 10px;
     background: white;
     cursor: pointer;
     border-radius:90px;
@@ -102,14 +92,19 @@ h1{
 }
 
 .feature-border{
-    border: 1px solid rgba(197,158,71,1);
+    border-top: 1px solid #bababa;
+    border-bottom: 1px solid #bababa;
     padding:30px;
 }
 
 .navone {
     border: 1px solid rgba(197, 158, 71, 1);
+    padding: 5px 10px 5px 10px;
 }
 
+.feature-bottom-border {
+    border: 1px solid rgba(197, 158, 71, 1);
+}
 button{
     background-color: rgb(2, 2, 67);
     color: white;
@@ -118,3 +113,54 @@ button{
     font-size: 28px;
 }
 
+.feature-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.feature-bottom-down{
+    width: 19.5vw;
+}
+
+.newsletter-centered{
+    position: absolute;
+    transform: translate(400%, -900%);
+    color: white;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.logo{
+    transform: translate(70%, -50%);
+}
+
+a{
+    margin: 0 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.top-text{
+    color:white;
+    transform: translate(10%, 80%);
+}
+
+.collections-top{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+
+}
