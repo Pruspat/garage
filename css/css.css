@@ -25,7 +25,12 @@ li{
 }
 
 h1{
+    font-family: 'Titillium Web', sans-serif;
     text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 9px;
+    color: #022172;
 }
 
 .border{
@@ -198,7 +203,7 @@ a{
 .dot {
     height: 8px;
     width: 8px;
-    background-color: black;
+    background-color: #022172;
     border-radius: 50%;
     display: inline-block;
 }
