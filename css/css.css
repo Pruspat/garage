@@ -7,7 +7,6 @@ body{
 .top{
     background: url("../images/oldcar.jpg") no-repeat;
     background-size: cover;
-    min-height:680px;
 }
 
 h4{
@@ -42,7 +41,7 @@ h1{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-30%, -50%);
 }
 
 .top-info{
@@ -101,7 +100,6 @@ h1{
     border-top: 1px solid #bababa;
     border-bottom: 1px solid #bababa;
     padding:30px;
-    height:260px;
 }
 
 .navone {
@@ -135,7 +133,7 @@ button{
 
 .newsletter-centered{
     position: absolute;
-    transform: translate(50%, -250%);
+    transform: translate(50%, -200%);
     color: white;
 }
 
@@ -144,6 +142,9 @@ button{
     justify-content: space-around;
     background-color: black;
     color: white;
+    font-size: 20px;
+    height: 40px;
+    align-items: center;
 }
 
 nav{
@@ -154,17 +155,20 @@ nav{
 
 .logo{
     transform: translate(70%, -50%);
+    position: absolute;
 }
 
 a{
     margin: 0 25px;
     color: black;
     text-decoration: none;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px
 }
 
 .top-text{
     color:white;
-    transform: translate(10%, 80%);
 }
 
 .collections{
@@ -181,7 +185,7 @@ a{
     border: 2px solid black;
     width: 50px;
     display: flex;
-    transform: translateX(1180%);
+    transform: translateX(1200%);
     margin-top: 80px;
     margin-bottom: 40px;
 }
@@ -198,6 +202,8 @@ a{
 .sort{
     margin: 80px auto;
     text-align: center;
+    font-weight: normal;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .dot {
@@ -227,7 +233,7 @@ h5{
 }
 
 h2{
-    font-size: 16px;
+    font-size: 42px;
 }
 .img{
     background: url("../images/featurporch.jpg") no-repeat;
@@ -241,4 +247,8 @@ h2{
 
 .pfeature{
     font-size: 12px;
+}
+.news{
+    font-size:24px;
+    width: 600px;
 }
