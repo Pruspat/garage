@@ -7,6 +7,9 @@ body{
 .top{
     background: url("../images/oldcar.jpg") no-repeat;
     background-size: cover;
+    width:100%;
+    position: relative;
+    padding: 60px 0px 0px 0px;
 }
 
 h4{
@@ -50,6 +53,7 @@ h1{
 
 .bottom-top{
     background-color: rgba(255,200,41,0.8);
+    padding: 0 0 50px 0;
 }
 
 .search{
@@ -154,8 +158,9 @@ nav{
 }
 
 .logo{
-    transform: translate(70%, -50%);
     position: absolute;
+    top: -60px;
+    left: 104px;
 }
 
 a{
@@ -173,6 +178,7 @@ a{
 
 .collections{
     text-align: center;
+    margin-top: 100px;
 }
 
 .collections-top{
