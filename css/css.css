@@ -10,6 +10,7 @@ body{
     width:100%;
     position: relative;
     padding: 60px 0px 0px 0px;
+    height: 600px;
 }
 
 h4{
@@ -47,13 +48,10 @@ h1{
     transform: translate(-30%, -50%);
 }
 
-.top-info{
-
-}
-
 .bottom-top{
     background-color: rgba(255,200,41,0.8);
-    padding: 0 0 50px 0;
+    position: relative;
+    top: 333px;
 }
 
 .search{
@@ -138,7 +136,7 @@ button{
 .newsletter-centered{
     position: absolute;
     transform: translate(50%, -200%);
-    color: white;
+    color: #d2d2cd;
 }
 
 .head{
@@ -146,8 +144,8 @@ button{
     justify-content: space-around;
     background-color: black;
     color: white;
-    font-size: 20px;
-    height: 40px;
+    font-size: 12px;
+    height: 26px;
     align-items: center;
 }
 
@@ -169,11 +167,14 @@ a{
     text-decoration: none;
     font-weight: bold;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 18px
+    font-size: 16px;
 }
 
 .top-text{
     color:white;
+    position: relative;
+    top: 200px;
+    left: 200px;
 }
 
 .collections{
@@ -203,6 +204,7 @@ a{
     background: black;
     height: 30px;
     font-size: 12px;
+    align-items: center;
 }
 
 .sort{
@@ -255,6 +257,18 @@ h2{
     font-size: 12px;
 }
 .news{
-    font-size:24px;
+    font-size:21px;
     width: 600px;
+}
+
+.search-text{
+    font-size: 27px;
+    position: relative;
+    top: 20px;
+    left: 140px;
+    color: white;
+}
+
+.sort a {
+    color: #aca094;
 }
