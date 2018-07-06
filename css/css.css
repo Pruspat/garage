@@ -115,6 +115,7 @@ h1{
     flex-direction: column;
     align-items: center;
 }
+
 button{
     background-color: rgb(2, 2, 67);
     color: white;
@@ -243,6 +244,7 @@ h5{
 h2{
     font-size: 42px;
 }
+
 .img{
     background: url("../images/featurporch.jpg") no-repeat;
     background-size: 100%;
@@ -256,6 +258,7 @@ h2{
 .pfeature{
     font-size: 12px;
 }
+
 .news{
     font-size:21px;
     width: 600px;
