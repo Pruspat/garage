@@ -114,6 +114,8 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    height: 310px;
 }
 
 button{
@@ -127,16 +129,17 @@ button{
 .feature-bottom{
     display: flex;
     flex-direction: row;
+    height: 380px;
 }
 
 .feature-bottom-down{
-    width: 17.1vw;
+    width: 17.36vw;
 
 }
 
 .newsletter-centered{
     position: absolute;
-    transform: translate(50%, -200%);
+    transform: translate(55%, -260%);
     color: #d2d2cd;
 }
 
@@ -209,7 +212,7 @@ a{
 }
 
 .sort{
-    margin: 80px auto;
+    margin-bottom: 80px;
     text-align: center;
     font-weight: normal;
     font-family: 'Source Code Pro', monospace;
@@ -239,6 +242,7 @@ h5{
     display: inline-block;
     padding-right: 246px;
     border-bottom: 2px solid white;
+    margin: 0 auto;
 }
 
 h2{
@@ -274,4 +278,9 @@ h2{
 
 .sort a {
     color: #aca094;
+}
+
+picture{
+    display: flex;
+    flex-wrap: wrap;
 }
